@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cone', 'car', 'person', 'tree', 'truck']
+
+roboflow:
+  workspace: computervision-lzgvq
+  project: computervision-yps9c
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computervision-lzgvq/computervision-yps9c/dataset/2
